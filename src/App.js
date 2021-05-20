@@ -14,8 +14,7 @@ export default function App() {
 	return (
 		<Router>   
 					<Switch>
-						<Route exact path="/"> 
-							<Nav/>
+						<Route exact path="/">  
 							<Landing/>
 						</Route>  
 					</Switch>  
