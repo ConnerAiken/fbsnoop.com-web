@@ -5,11 +5,7 @@ import { withRouter, BrowserRouter as Router, Switch, Route } from "react-router
 // Custom code
 import "./App.scss"; 
 import Nav from "./components/Nav";
-import Landing from "./pages/Landing";  
-import Portfolio from "./pages/Portfolio";
-import Process from "./pages/Process";
-import Contact from "./pages/Contact";
-import CustomerLogin from "./pages/CustomerLogin";
+import Landing from "./pages/Landing";   
 import ReactGA from 'react-ga';
 ReactGA.initialize('G-LKZCQY3SQE'); 
   
@@ -22,22 +18,6 @@ export default function App() {
 							<Nav/>
 							<Landing/>
 						</Route>  
-						<Route path="/customer-login">
-							<Nav/>
-							<CustomerLogin />
-						</Route>
-						<Route path="/process">
-							<Nav/>
-							<Process />
-						</Route>
-						<Route path="/portfolio">
-							<Nav/>
-							<Portfolio />
-						</Route>
-						<Route path="/contact">
-							<Nav/>
-							<Contact />
-						</Route>
 					</Switch>  
 		</Router>
 	);
