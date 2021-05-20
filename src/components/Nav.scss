@@ -1,0 +1,38 @@
+nav.navbar {
+	padding-left: 10%;
+	padding-right: 10%; 
+    top: 0;
+    left: 0;
+    z-index: 2;
+    opacity: 0;
+	height: 10vh;  
+	border-bottom: 1px solid rgba(255, 255, 255, 0.467);
+	
+
+    .nav-link {
+        color: #FFF !important; 
+		margin: 2%;
+		&:hover {
+			cursor: pointer;
+			transition: border 250ms linear;
+			border-bottom: 1px solid white;
+			border-radius: 2px;
+		}
+    }
+        
+    .nav-active {
+        font-weight: bold;
+        text-transform: uppercase; 
+    } 
+}
+
+
+ 
+#page-wrapper {     
+	.row {   
+		h1,h2,h3,h4,h5 { 
+			color: green;
+		} 
+	}
+}
+  

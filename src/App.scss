@@ -1,0 +1,50 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.compat.css';
+ 
+.App { 	  
+	font-size: calc(10px + 2vmin); 
+}
+ 
+/* Works on Firefox */
+* {
+	scrollbar-width: thin;
+	scrollbar-color: #689c28 #343a40;
+}
+
+body {
+	overflow: auto;
+}
+
+/* Works on Chrome, Edge, and Safari */
+
+/* The entire scrollbar */
+*::-webkit-scrollbar {
+	width: 6px;
+}
+
+/* The buttons on the scrollbar (arrows pointing upwards and downwards) */
+*::-webkit-scrollbar-button {
+	background: #343a40;
+}
+
+/* the draggable scrolling handle */
+*::-webkit-scrollbar-thumb {
+	background-color: #689c28 ;
+	border-radius: 2px;
+	border: 6px solid #343a40;
+}
+
+/* the track (progress bar) of the scrollbar */
+*::-webkit-scrollbar-track { 
+}
+
+/* the part of the track (progress bar) not covered by the handle  */
+*::-webkit-scrollbar-track-piece { 
+}
+
+/* the bottom corner of the scrollbar, where both horizontal and vertical scrollbars meet  */
+*::-webkit-scrollbar-corner { 
+}
+
+/* the draggable resizing handle that appears at the bottom corner of some elements */
+*::-webkit-resizer { 
+}
