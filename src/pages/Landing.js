@@ -11,7 +11,7 @@ class Landing extends React.Component {
 	  
 	render() { 
 		return (   	 
-			<p style='text-align: center;margin: 5%;'>Emma is the <u>most special</u> lady that i've ever met</p>  
+			<p style={{textAlign: 'center', margin: '5%'}}>Emma is the <u>most special</u> lady that i've ever met</p>  
 		);
 	}
 }
